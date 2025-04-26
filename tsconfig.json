@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    // Target modern ECMAScript so the compiler injects matching API definitions
+    "target": "ESNext",
+    // Include libraries for Promise and browser globals
+    "lib": ["ESNext", "DOM"],
+    // Support default imports from CommonJS modules
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // Resolve modern module imports like import.meta and rollup/parseAst
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    // Skip checking library declaration files to avoid extraneous errors
+    "skipLibCheck": true,
+    // Recognize Vite’s built-in types (e.g. import.meta.env)
+    "types": ["vite/client"]
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "src/env.d.ts",
+    "src/lib/utils.ts"
+  ]
+}

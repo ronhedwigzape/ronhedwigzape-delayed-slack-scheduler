@@ -9,13 +9,33 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vueuse/core": "^13.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.503.0",
+    "reka-ui": "^2.2.0",
+    "tailwind-merge": "^3.2.0",
+    "tw-animate-css": "^1.2.8",
     "vue": "^3.5.13"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.4",
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^22.15.2",
     "@vitejs/plugin-vue": "^5.2.3",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.25.1",
+    "postcss": "^8.5.3",
+    "rollup": "^4.40.0",
+    "shadcn-vue": "^2.1.0",
+    "stylelint": "^16.19.1",
     "tailwindcss": "^4.1.4",
+    "typescript": "^5.8.3",
     "vite": "^6.2.4",
-    "vite-plugin-vue-devtools": "^7.7.2"
+    "vite-plugin-checker": "^0.9.1",
+    "vite-plugin-vue-devtools": "^7.7.2",
+    "vscode-languageserver": "^9.0.1",
+    "vscode-languageserver-types": "^3.17.5",
+    "vue-tsc": "^2.2.10"
   }
 }
